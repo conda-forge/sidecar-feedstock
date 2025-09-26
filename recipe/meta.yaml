@@ -1,13 +1,13 @@
 {% set name = "sidecar" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c3fa1694b5611c1fab9d7a96c07577ba0764068a89b7b39be9b9ce9770e9d363
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 982f051d3ecc8e84f9e16a244d566f931924a226043df5c0650319e959e29158
 
 build:
   noarch: python
